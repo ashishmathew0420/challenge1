@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*======================
+body
+========================*/
+
+*{
+    box-sizing: border-box;
+}
+
+
+/*======================
+header
+========================*/
+
+header h3{
+    position:absolute;
+    width: 133px;
+    height: 25px;
+    left: 77px;
+    top: 40px;
+
+
+    color:#333333;
+
+    font:bold 24px/25px "Inconsolata";
+    text-transform: uppercase;
+    letter-spacing: -0.08em;
+}
+
+/*======================
+main
+========================*/
+
+main img{
+    width: 539px;
+    height: 447px;
+
+    position:absolute;
+    top:24%;
+    left:5%;
+}
+
+.message{
+    position:absolute;
+    top:24%;
+    left:736px;
+}
+.message h1{
+
+    width: 590px;
+    height: 190px;
+
+    font:64px/95px "Space Mono";
+    letter-spacing: -0.035em;
+}
+.message p{
+
+    width: 381px;
+    height: 108px;
+    margin: 20px 0px 20px;
+
+    font:normal 24px/36px "Space Mono";
+    letter-spacing: -0.035em;
+}
+
+.btn{
+    display: block;
+    width: 216px;
+    height: 68px;
+    background-color: #333333;
+
+
+    text-transform: uppercase;
+    font:bold 14px/21px "Space Mono";
+    letter-spacing: -0.035em;
+    padding-top: 24px;
+    padding-left: 43px;
+    color:#fff;
+    text-decoration: none;
+}
