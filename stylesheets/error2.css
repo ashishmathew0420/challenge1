@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -57,63 +58,86 @@ body
     box-sizing: border-box;
 }
 
-
+body{
+    min-width: 100%;
+    height: 100vh;
+}
+.content{
+    width:auto;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    
+}
 /*======================
 header
 ========================*/
 
 header h3{
+
     position:absolute;
-    width: 133px;
-    height: 25px;
     left: 77px;
     top: 40px;
-
+    width: 133px;
+    height: 25px;
 
     color:#333333;
 
     font:bold 24px/25px "Inconsolata";
     text-transform: uppercase;
     letter-spacing: -0.08em;
+
 }
 
 /*======================
 main
 ========================*/
+.main{
 
-main img{
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+
+    /* position:absolute;
+    top:24%; 
+    bottom: 69%; */
+}
+
+.main img{
     width: 539px;
     height: 447px;
-
-    position:absolute;
-    top:24%;
-    left:5%;
+    padding-right:40px;
 }
 
 .message{
-    position:absolute;
-    top:24%;
-    left:736px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
 }
 .message h1{
 
     width: 590px;
-    height: 190px;
+    height: 180px;
 
-    font:64px/95px "Space Mono";
+    font:50px/95px "Space Mono";
     letter-spacing: -0.035em;
 }
 .message p{
 
     width: 381px;
     height: 108px;
-    margin: 20px 0px;
 
     font:normal 24px/36px "Space Mono";
     letter-spacing: -0.035em;
 }
 
 .btn{
+
     display: block;
     width: 216px;
     height: 68px;
@@ -127,4 +151,14 @@ main img{
     padding-left: 43px;
     color:#fff;
     text-decoration: none;
+}
+
+
+/*======================
+footer
+========================*/
+footer{
+    color:rgb(197, 189, 189);
+    /* position: absolute;
+    bottom: 10px; */
 }
